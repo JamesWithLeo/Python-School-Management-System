@@ -4,8 +4,8 @@ import mysql.connector
 school_db = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="12345678",
-    database="schoolsys_db"
+    password="user password",
+    database="name of database"
 )
 mycursor = school_db.cursor(buffered=True, dictionary=True)
 
